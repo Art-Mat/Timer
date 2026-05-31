@@ -1,0 +1,65 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"picolibc_headers"
+		],
+		"files" : 
+		[
+			"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake",
+			"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/machine/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 103,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/machine",
+			"paths" : 
+			[
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/machine/ansi.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/machine/_arc4random.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/machine/_default_types.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/machine/endian.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/machine/fastmath.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/machine/fenv-softfloat.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/machine/ieeefp.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/machine/malloc.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/machine/setjmp.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/machine/stdlib.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/machine/termios.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/machine/_time.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/machine/time.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/machine/_types.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/machine/types.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "modules/picolibc/newlib/libc/include/machine",
+		"source" : "/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/machine"
+	}
+}

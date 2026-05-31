@@ -1,0 +1,44 @@
+cmake:
+  application:
+    configuration-dir: '/home/artur-mateo/College/Sem_7/Embedded_Systems/aula_5/timer/zephyr'
+    source-dir: '/home/artur-mateo/College/Sem_7/Embedded_Systems/aula_5/timer/zephyr'
+  board:
+    name: 'frdm_kl25z'
+    path:
+     - '/home/artur-mateo/.platformio/packages/framework-zephyr/boards/nxp/frdm_kl25z'
+    qualifiers: 'mkl25z4'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - '/home/artur-mateo/.platformio/packages/framework-zephyr/dts/bindings'
+    files:
+     - '/home/artur-mateo/.platformio/packages/framework-zephyr/boards/nxp/frdm_kl25z/frdm_kl25z.dts'
+    include-dirs:
+     - '/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/dts'
+     - '/home/artur-mateo/.platformio/packages/framework-zephyr/include'
+     - '/home/artur-mateo/.platformio/packages/framework-zephyr/include/zephyr'
+     - '/home/artur-mateo/.platformio/packages/framework-zephyr/dts/common'
+     - '/home/artur-mateo/.platformio/packages/framework-zephyr/dts/vendor'
+     - '/home/artur-mateo/.platformio/packages/framework-zephyr/dts/rx'
+     - '/home/artur-mateo/.platformio/packages/framework-zephyr/dts/x86'
+     - '/home/artur-mateo/.platformio/packages/framework-zephyr/dts/xtensa'
+     - '/home/artur-mateo/.platformio/packages/framework-zephyr/dts/sparc'
+     - '/home/artur-mateo/.platformio/packages/framework-zephyr/dts/riscv'
+     - '/home/artur-mateo/.platformio/packages/framework-zephyr/dts/posix'
+     - '/home/artur-mateo/.platformio/packages/framework-zephyr/dts/arm64'
+     - '/home/artur-mateo/.platformio/packages/framework-zephyr/dts/arm'
+     - '/home/artur-mateo/.platformio/packages/framework-zephyr/dts/arc'
+     - '/home/artur-mateo/.platformio/packages/framework-zephyr/dts'
+  kconfig:
+    files:
+     - '/home/artur-mateo/.platformio/packages/framework-zephyr/boards/nxp/frdm_kl25z/frdm_kl25z_defconfig'
+     - '/home/artur-mateo/College/Sem_7/Embedded_Systems/aula_5/timer/zephyr/prj.conf'
+    user-files:
+     - '/home/artur-mateo/College/Sem_7/Embedded_Systems/aula_5/timer/zephyr/prj.conf'
+  toolchain:
+    name: 'gnuarmemb'
+    path: '/home/artur-mateo/.platformio/packages/toolchain-gccarmnoneeabi'
+  zephyr:
+    version: '4.2.0'
+    zephyr-base: '/home/artur-mateo/.platformio/packages/framework-zephyr'
+version: '0.1.0'

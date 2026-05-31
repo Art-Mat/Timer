@@ -1,0 +1,130 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"picolibc_headers"
+		],
+		"files" : 
+		[
+			"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake",
+			"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 103,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 103,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 103,
+				"parent" : 3
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/alloca.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/argz.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/ar.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/assert.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/byteswap.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/cpio.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/ctype.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/devctl.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/dirent.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/endian.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/envlock.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/envz.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/errno.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/fastmath.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/fcntl.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/fenv.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/fnmatch.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/getopt.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/glob.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/grp.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/iconv.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/ieeefp.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/inttypes.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/langinfo.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/libgen.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/limits.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/locale.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/malloc.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/math.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/memory.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/ndbm.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/newlib.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/paths.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/picotls.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/pwd.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/regdef.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/regex.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/sched.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/search.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/setjmp.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/signal.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/spawn.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/stdint.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/stdnoreturn.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/stdlib.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/string.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/strings.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/tar.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/termios.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/time.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/uchar.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/unctrl.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/unistd.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/utime.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/utmp.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/wchar.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/wctype.h",
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/wordexp.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include/complex.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "modules/picolibc/newlib/libc/include",
+		"source" : "/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/newlib/libc/include"
+	}
+}

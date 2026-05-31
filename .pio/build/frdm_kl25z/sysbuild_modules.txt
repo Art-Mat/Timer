@@ -1,0 +1,1 @@
+"mcuboot":"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/bootloader/mcuboot":"/home/artur-mateo/.platformio/packages/framework-zephyr/_pio/bootloader/mcuboot/boot/zephyr/sysbuild"
